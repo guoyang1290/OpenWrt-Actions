@@ -41,62 +41,6 @@ git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-p
 #自动关机插件
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
 
-#关闭
-CONFIG_PACKAGE_luci-app-dnscrypt-proxy=n
-CONFIG_PACKAGE_noddos=n
-CONFIG_PACKAGE_luci-app-openvpn=n
-CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=n
-CONFIG_PACKAGE_luci-app-udpxy=n
-CONFIG_PACKAGE_udpxy=n
-CONFIG_PACKAGE_luci-app-e2guardian=n
-CONFIG_PACKAGE_e2guardian=n
-CONFIG_PACKAGE_luci-app-pppoe-relay=n
-CONFIG_PACKAGE_luci-i18n-pppoe-relay-zh-cn=n
-CONFIG_PACKAGE_rp-pppoe-relay=n
-CONFIG_PACKAGE_luci-app-uugamebooster=n
-CONFIG_PACKAGE_luci-i18n-uugamebooster-zh-cn=n
-CONFIG_PACKAGE_uugamebooster=n
-CONFIG_PACKAGE_luci-app-familycloud=n
-CONFIG_PACKAGE_luci-i18n-advanced-reboot-zh-cn=n
-CONFIG_PACKAGE_luci-app-advanced-reboot=n
-CONFIG_PACKAGE_noddos=n
-CONFIG_PACKAGE_luci-app-noddos=n
-CONFIG_PACKAGE_luci-app-kodexplorer=n
-CONFIG_PACKAGE_luci-i18n-kodexplorer-zh-cn=n
-CONFIG_PACKAGE_luci-app-usb-printer=n
-CONFIG_PACKAGE_kmod-usb-printer=n
-CONFIG_PACKAGE_luci-i18n-hd-idle-zh-cn=n
-CONFIG_PACKAGE_luci-app-hd-idle=n
-CONFIG_PACKAGE_hd-idle=n
-CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=n
-CONFIG_PACKAGE_luci-app-qbittorrent=n
-CONFIG_PACKAGE_qBittorrent=n
-CONFIG_PACKAGE_amule=n
-CONFIG_PACKAGE_luci-i18n-amule-zh-cn=n
-CONFIG_PACKAGE_luci-app-amule=n
-CONFIG_PACKAGE_samba36-server=n
-CONFIG_PACKAGE_rclone=n
-CONFIG_PACKAGE_transmission-web-control=n
-CONFIG_PACKAGE_mjpg-streamer=n
-CONFIG_PACKAGE_luci-i18n-mjpg-streamer-zh-cn=n
-CONFIG_PACKAGE_minidlna=n
-CONFIG_PACKAGE_luci-i18n-minidlna-zh-cn=n
-CONFIG_PACKAGE_luci-app-minidlna=n
-CONFIG_PACKAGE_luci-app-cifsd=n
-CONFIG_PACKAGE_luci-i18n-cifsd-zh-cn=n
-CONFIG_PACKAGE_ahcpd=n
-CONFIG_PACKAGE_luci-app-uhttpd=n
-CONFIG_PACKAGE_luci-app-cjdns=n
-CONFIG_PACKAGE_cjdns=n
-CONFIG_PACKAGE_luci-app-https-dns-proxy=n
-CONFIG_PACKAGE_https-dns-proxy=n
-CONFIG_PACKAGE_rp-pppoe-server=n
-CONFIG_PACKAGE_luci-app-rp-pppoe-server=n
-CONFIG_PACKAGE_luci-app-squid=n
-CONFIG_PACKAGE_squid=n
-CONFIG_PACKAGE_luci-i18n-nps-zh-cn=n
-CONFIG_PACKAGE_luci-app-nps=n
-CONFIG_PACKAGE_e2guardian=n
 
 # argon主题
 pushd package/lean
