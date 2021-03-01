@@ -20,8 +20,6 @@ sed -i '$a src-git pwdep https://github.com/hongweifuture/pwdep.git' feeds.conf.
 
 # KoolProxyR去广告插件
 git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
-# 微信推送插件
-git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 # 京东签到插件
 #pushd package/lean
 #rm -rf luci-app-jd-dailybonus
@@ -29,17 +27,9 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 #popd
 # adguardhome插件
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-# Clash插件
-git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 #PassWall插件
 git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
-# SmartDNS插件
-git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
-#强制关机插件
-git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
-#自动关机插件
-git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
+
 
 
 # argon主题
